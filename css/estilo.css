@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.container{
+    background-color: cornflowerblue;
+}
+
+.texto{
+    border-style: dashed;
+    text-align: center;
+    padding: 10px;
+}
+.imagen{
+    text-align: center;
+   
+}
+
+
+
+.botones{
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: darkgray;
+    padding: 20px;
+}
+
+.botones button{
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.mensaje{
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.reinicio{
+    text-align: center;
+}
+.reinicio button{
+    border-radius: 5px;
+    font-size: x-large;
+}
+
